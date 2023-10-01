@@ -22,7 +22,6 @@ function Homepage() {
 
     async function addNewOrder() {
 
-        console.log("Fui chamado")
         if (inputItem.current.value === "" || inputName.current.value === "") {
             if (inputItem.current.value === "") { setIsEmptyInputItem(true) }
             else { setIsEmptyInputItem(false) }
